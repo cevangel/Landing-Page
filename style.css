@@ -1,0 +1,71 @@
+body, .left-hero {
+  display: flex; /*Should have done this, made other stuff flex instead in mine*/
+  flex-direction: column; /*done but see above*/
+}
+
+.hero, .header {
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: auto;
+}
+
+.hero {
+  padding: 100px 13vw 100px 13vw;
+
+}
+.header {
+  justify-content: space-between;
+  padding: 10px 13vw 100px 13vw;
+}
+
+.header-link {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
+div, body, a, h1, a.hero-main {
+  font-family: Roboto;
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  font-family: 'Roboto';
+}
+
+.subtext, .header-link {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+img {
+  width: 36vw;
+  height: 16vw;
+
+}
+.sign-up, button{
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 100px;
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  margin: 10px 0px 100px 0px;
+  font-weight: bolder;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+

@@ -1,9 +1,10 @@
 body, .left-hero {
   display: flex; /*Should have done this, made other stuff flex instead in mine*/
   flex-direction: column; /*done but see above*/
+  font-family: 'Roboto';
 }
 
-.hero, .header {
+.hero, .header{
   background-color: #1F2937;
   color: white;
   display: flex;
@@ -50,22 +51,138 @@ div, body, a, h1, a.hero-main {
 img {
   width: 36vw;
   height: 16vw;
-
 }
-.sign-up, button{
+
+button { /*button shape*/
   padding: 8px 16px;
   border-radius: 8px;
   width: 100px;
-  background: royalblue;
-  border: 1px solid royalblue;
-  color: white;
   margin: 10px 0px 100px 0px;
   font-weight: bolder;
 }
 
-.header-logo {
+.sign-up-hero { /*placement  and button colors*/
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+
+.header-logo, .action-head {
   font-size: 24px;
   color: #f9faf8;
   font-weight: 800;
 }
 
+.info-title {
+  display: flex;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+  justify-content: center;
+  padding: 25px 13vw 25px 13vw;
+}
+
+/*squares are 20vw LxW with blue border and rounded corners */
+.bluebox { /*added but didn't do */
+  width: 10vw;
+  height: 10vw;
+  border: #3882f6;
+  border-radius: 25px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+}
+
+/*lazy and copy paseted*/
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding: 10px 13vw 100px 13vw;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-text {
+  text-align: center;
+  font-size: 18px;
+  color: gray;
+}
+
+.quote-background {
+  background-color: #e5e7eb;
+  padding: 10px 13vw 100px 13vw;
+}
+
+h3 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: 'roboto';
+  color: #1F2937;
+}
+
+h4 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action-background {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #3882f6;
+  height: 100px;
+  width: 700px;
+  margin: 50px 13vw 50px 13vw;
+  border-radius: 8px;
+}
+
+.action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-text {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+}
+
+.sign-up-action {
+  background: #3882f6;
+  border: 1px solid white;
+  color: white;
+  margin: auto;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+  color: white;
+  padding: 25px 300px;
+  font-size: 18px;
+}
